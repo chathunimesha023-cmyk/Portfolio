@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chathumi Nimesha | Frontend Developer</title>
+
+    <!-- Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-code"></i>
+                <div class="logo-text">Chathumi<span>.dev</span></div>
+            </a>
+
+            <nav>
+                <div class="togglebtn" id="toggleBtn" aria-label="Toggle navigation menu" role="button" tabindex="0">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-overlay" id="navOverlay"></div>
+                <ul class="navlinks" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certificate" class="nav-link">Certificate</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container hero-container">
+                <div class="hero-pic">
+                    <img src="profile.jpg" alt="Chathumi Nimesha - Frontend Developer" onerror="this.onerror=null; this.src='WhatsApp Image 2026-09-20 at 21.00.28.jpeg';">
+                    <div class="hero-pic-glow"></div>
+                </div>
+
+                <div class="hero-text">
+                    <div class="badge">Welcome to my portfolio</div>
+                    <h5>Hi, I'm a <span class="role" id="typing"></span><span class="cursor">|</span></h5>
+                    <h1>Chathumi Nimesha</h1>
+                    <p>I am a passionate frontend developer with a strong foundation in modern HTML, CSS, JavaScript, and responsive web design. I take pride in crafting clean, user-centric, and high-performance digital experiences.</p>
+
+                    <div class="btn-group">
+                        <a href="Chathumi Nimesha Kumarasiri  - (CV).pdf" class="btn btn-primary" download="Chathumi_Nimesha_CV.pdf">
+                            <i class="fa-solid fa-download"></i> Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/chathumi-nimesha-1370753a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/chathunimesha023-cmyk" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:chathunimesha023@gmail.com" aria-label="Send Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About <span>Me</span></h2>
+                    <p class="subtitle">Get to know who I am and what drives my work</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card intro-card">
+                        <div class="about-badge"><i class="fa-solid fa-laptop-code"></i> Frontend Developer</div>
+                        <h3>Passionate about crafting intuitive & interactive web experiences</h3>
+                        <p>Hello! I'm <strong>Chathumi Nimesha</strong>, a dedicated frontend developer eager to transform creative concepts into seamless, pixel-perfect web applications. I focus on writing semantic, modular code that is accessible, performant, and maintainable.</p>
+                        <p>With an eye for detail and an enthusiasm for modern frontend technologies, I constantly strive to stay ahead of industry standards, experimenting with creative UI layouts and engaging interactions.</p>
+                        
+                        <div class="personal-info-grid">
+                            <div class="info-item">
+                                <span class="label">Name:</span>
+                                <span class="val">Chathumi Nimesha</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">Role:</span>
+                                <span class="val">Frontend Developer</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">Availability:</span>
+                                <span class="val status-available"><i class="fa-solid fa-circle"></i> Available for Opportunities</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">Profiles:</span>
+                                <span class="val links">
+                                    <a href="https://github.com/chathunimesha023-cmyk" target="_blank">GitHub</a> | 
+                                    <a href="https://www.linkedin.com/in/chathumi-nimesha-1370753a3/" target="_blank">LinkedIn</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-cards-column">
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                            <div>
+                                <h4>Responsive Design</h4>
+                                <p>Building layouts that adapt fluidly across all screen dimensions from smartphones to large desktop displays.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+                            <div>
+                                <h4>Clean & Semantic Code</h4>
+                                <p>Writing organized, self-documenting, and SEO-friendly code adhering to current web standards.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+                            <div>
+                                <h4>Performance & UX</h4>
+                                <p>Optimizing assets and interactive workflows for snappy load times and effortless user navigation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Technical <span>Skills</span></h2>
+                    <p class="subtitle">Technologies and tools I use to bring ideas to life</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Core Frontend -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <h3>Core Frontend</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-brands fa-html5 skill-icon html-color"></i> HTML5 (Semantic)</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-brands fa-css3-alt skill-icon css-color"></i> CSS3 & Flexbox/Grid</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-brands fa-js skill-icon js-color"></i> JavaScript (ES6+)</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-solid fa-arrows-split-up-and-left skill-icon"></i> Responsive Web Design</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 92%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & Styling -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-brands fa-react"></i>
+                            <h3>Frameworks & Libraries</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-brands fa-react skill-icon react-color"></i> React.js Basics</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-brands fa-bootstrap skill-icon bootstrap-color"></i> Bootstrap 5</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 88%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-solid fa-wind skill-icon tailwind-color"></i> Tailwind CSS</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-solid fa-palette skill-icon"></i> UI Component Architecture</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Workflow -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Tools & Workflow</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-brands fa-git-alt skill-icon git-color"></i> Git & Version Control</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-brands fa-github skill-icon"></i> GitHub & Collaboration</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-brands fa-figma skill-icon figma-color"></i> Figma (UI/UX to Code)</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span><i class="fa-solid fa-network-wired skill-icon"></i> REST APIs & Fetch</span>
+                                    <span>78%</span>
+                                </div>
+                                <div class="progress-bar"><div class="progress" style="width: 78%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Badges Quick View -->
+                <div class="skill-badges">
+                    <span class="badge-item"><i class="fa-brands fa-html5"></i> HTML5</span>
+                    <span class="badge-item"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                    <span class="badge-item"><i class="fa-brands fa-js"></i> JavaScript</span>
+                    <span class="badge-item"><i class="fa-brands fa-react"></i> React</span>
+                    <span class="badge-item"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+                    <span class="badge-item"><i class="fa-brands fa-git-alt"></i> Git</span>
+                    <span class="badge-item"><i class="fa-brands fa-github"></i> GitHub</span>
+                    <span class="badge-item"><i class="fa-brands fa-figma"></i> Figma</span>
+                    <span class="badge-item"><i class="fa-solid fa-code-branch"></i> DOM Manipulation</span>
+                    <span class="badge-item"><i class="fa-solid fa-mobile-screen"></i> Mobile First</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Featured <span>Projects</span></h2>
+                    <p class="subtitle">A showcase of some of my recent web development work</p>
+                </div>
+
+                <div class="projects-grid">
+                   <!-- Project 1 -->
+<div class="project-card">
+    <div class="project-img-box">
+        <img src="Cake site SS.png" alt="Chathu Cake Website screenshot">
+    </div>
+    <div class="project-content">
+        <div class="project-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Responsive</span>
+        </div>
+        <h3>Chathu Cake Website</h3>
+        <p>A responsive website using HTML, CSS and JavaScript. This website showcases a variety of cakes and allows users to place orders online.</p>
+        <div class="project-links">
+            <a href="https://github.com/chathunimesha023-cmyk/Cake-web-site" target="_blank" rel="noopener noreferrer" class="btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://chathunimesha023-cmyk.github.io/Cake-web-site/" target="_blank" rel="noopener noreferrer" class="btn-sm btn-primary-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 2 -->
+<div class="project-card">
+    <div class="project-img-box">
+        <img src="Farmer site SS.png" alt="Farmer Decision Support Web System screenshot">
+    </div>
+    <div class="project-content">
+        <div class="project-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Tailwind CSS</span>
+            <span>MySQL</span>
+        </div>
+        <h3>Farmer Decision Support Web System</h3>
+        <p>A web-based decision support system that helps farmers manually enter their daily data and receive recommendations. It also includes a keyword-based chatbot.</p>
+        <div class="project-links">
+            <a href="https://github.com/chathunimesha023-cmyk/farmer-decision-support" target="_blank" rel="noopener noreferrer" class="btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="#contact" class="btn-sm btn-primary-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+        </div>
+    </div>
+</div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+    <div class="project-img-box">
+        <img src="Bag Shop.png" alt="T&C Bag Shop website screenshot">
+    </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>LocalStorage</span>
+                                <span>UI Components</span>
+                            </div>
+                            <h3>T&C Bag Shop Website</h3>
+                            <p>A modern e-commerce website for a bag retailer, featuring a responsive design, product filtering, and a streamlined checkout process.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/chathunimesha023-cmyk" target="_blank" rel="noopener noreferrer" class="btn-sm"><i class="fa-brands fa-github"></i> Code</a>
+                                <a href="#contact" class="btn-sm btn-primary-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-title">
+                    <h2>My <span>Education</span></h2>
+                    <p class="subtitle">Academic foundation and educational milestones</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2022 - Present</span>
+                            <h3>Higher National Diploma in Information Technology (HNDIT)  </h3>
+                            <h4>SLIATE Rathnapura — Ongoing </h4>
+                            <p>Specializing in Software Development .</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2019 - 2021</span>
+                            <h3>G.C.E. Advanced Level Examination</h3>
+                            <h4>Secondary Education</h4>
+                            <p>Successfully completed Advanced Level studies with a focus on Art Stream ( Agriculture, Political Science, Dancing).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Section -->
+<section class="section certificate-section" id="certificate">
+    <div class="container">
+        <div class="section-title">
+            <h2>Certifications & <span>Achievements</span></h2>
+            <p class="subtitle">Foundational Skills and Recognitions</p>
+        </div>
+
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                    <h3>Certificate in English</h3>
+                    <p class="cert-issuer"><i class="fa-solid fa-certificate"></i> Sabaragamuwa University of Sri Lanka (2024)</p>
+                    <p class="cert-desc">English language proficiency.</p>
+                    <a href="https://drive.google.com/file/d/1blkdaGMTwGUB0fRTs_J-o68skuceNQQi/view" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                    <h3>Certificate of Basic Proficiency in English</h3>
+                    <p class="cert-issuer"><i class="fa-solid fa-certificate"></i> Royal English Academy, Institute of English Studies, Sri Lanka (2024)</p>
+                    <p class="cert-desc">Foundation of English language and spoken English practice.</p>
+                    <a href="https://drive.google.com/file/d/1v7jQYQTRDa-BJe6r5NlqkFx1NQFqQZtI/view" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                    <h3>National Certificate in Computer Applications Assistant, NVQ Level 3</h3>
+                    <p class="cert-issuer"><i class="fa-solid fa-certificate"></i> Nenasala Information Technology School (2023)</p>
+                    <p class="cert-desc">Basic computer application skills.</p>
+                    <a href="https://drive.google.com/file/d/1ICmsPpE_dLXXf4fWg37YBa8_olZ_m64H/view" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-content">
+                    <h3>Certificate in Graphic Designing</h3>
+                    <p class="cert-issuer"><i class="fa-solid fa-certificate"></i> Nenasala Information Technology School (2019)</p>
+                    <p class="cert-desc">Graphic design fundamentals and software proficiency.</p>
+                    <a href="https://drive.google.com/file/d/1-XBQN1Kj2-DWU4soZbcZ2-h4w_cQUIQ4/view" target="_blank" rel="noopener noreferrer" class="cert-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Experience Section -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Practical <span>Experience</span></h2>
+                    <p class="subtitle">Hands-on projects and industry engagement</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2023 - Present</span>
+                            <h3>Frontend Web Developer & Project Builder</h3>
+                            <h4>Independent & Freelance Projects</h4>
+                            <ul>
+                                <li>Designed and developed responsive websites for small businesses and portfolio clients using clean HTML, modern CSS, and vanilla JavaScript.</li>
+                                <li>Converted Figma and Adobe XD design mockups into functional, pixel-perfect, cross-browser compatible web pages.</li>
+                                <li>Implemented responsive layouts supporting mobile, tablet, and desktop viewports with 99%+ layout fidelity.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-code-fork"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2022 - 2023</span>
+                            <h3>Academic Web Project Lead</h3>
+                            <h4>Higher Education Collaborative Projects</h4>
+                            <ul>
+                                <li>Led the UI/UX frontend team in building full-stack web applications for academic evaluation.</li>
+                                <li>Managed repository workflows, pull requests, and code reviews on GitHub with team members.</li>
+                                <li>Optimized client-side rendering speed and ensured accessible navigation across all interfaces.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get In <span>Touch</span></h2>
+                    <p class="subtitle">Have a question or want to work together? Send me a message!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info Cards -->
+                    <div class="contact-info">
+                        <h3>Let's talk about your next project!</h3>
+                        <p>I am always excited to discuss new opportunities, collaborate on innovative projects, or connect with fellow developers.</p>
+
+                        <div class="info-card-list">
+                            <div class="info-box">
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h5>Email</h5>
+                                    <a href="mailto:chathunimesha023@gmail.com">chathunimesha023@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div>
+                                    <h5>LinkedIn</h5>
+                                    <a href="https://www.linkedin.com/in/chathumi-nimesha-1370753a3/" target="_blank" rel="noopener noreferrer">linkedin.com/in/chathumi-nimesha</a>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                                <div>
+                                    <h5>GitHub</h5>
+                                    <a href="https://github.com/chathunimesha023-cmyk" target="_blank" rel="noopener noreferrer">github.com/chathunimesha023-cmyk</a>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h5>Location</h5>
+                                    <span>Sri Lanka (Available for Remote Work)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <form id="contactForm" novalidate>
+                            <div class="form-group">
+                                <label for="userName">Your Name <span class="req">*</span></label>
+                                <input type="text" id="userName" name="name" placeholder="e.g. John Doe" required>
+                                <span class="error-msg" id="nameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="userEmail">Your Email <span class="req">*</span></label>
+                                <input type="email" id="userEmail" name="email" placeholder="e.g. john@example.com" required>
+                                <span class="error-msg" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="userSubject">Subject <span class="req">*</span></label>
+                                <input type="text" id="userSubject" name="subject" placeholder="Project Inquiry / Job Opportunity" required>
+                                <span class="error-msg" id="subjectError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="userMessage">Your Message <span class="req">*</span></label>
+                                <textarea id="userMessage" name="message" rows="5" placeholder="Tell me about your project or inquiry..." required></textarea>
+                                <span class="error-msg" id="messageError"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+
+                            <div class="form-alert" id="formAlert"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <i class="fa-solid fa-code"></i>
+                    <div class="logo-text">Chathumi<span>.dev</span></div>
+                </a>
+                <p>Building high quality, responsive, and user-centric web applications.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certificate">Certificates</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Connect With Me</h4>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/chathumi-nimesha-1370753a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/chathunimesha023-cmyk" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:chathuminimesha@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Chathumi Nimesha. All rights reserved. Crafted with passion &amp; modern web standards.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
