@@ -1497,8 +1497,10 @@ footer {
         padding: 1.4rem;
     }
 
-    .contact-form-card,
-    .about-card {
-        padding: 1.6rem;
-    }
+.contact-form-card,
+.about-card {
+    padding: 1.6rem;
+    width: 80%;
+    margin: 0 auto;
+}
 }
