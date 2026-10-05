@@ -1045,13 +1045,15 @@ nav .nav-link.active::after {
     background-color: var(--bg-darker);
 }
 
-.contact-grid {
-    display: grid;
-    grid-template-columns: 0.9fr 1.1fr;
-    gap: 3rem;
-    align-items: start;
+..contact-grid {
+    display: flex;
+    justify-content: center;
 }
 
+.contact-info {
+    width: 100%;
+    max-width: 650px;
+}
 .contact-info h3 {
     font-size: 1.6rem;
     color: #ffffff;
