@@ -1045,7 +1045,8 @@ nav .nav-link.active::after {
     background-color: var(--bg-darker);
 }
 
-..contact-grid {
+/* FIX: ".." typo eka ain kala -> ".contact-grid" */
+.contact-grid {
     display: flex;
     justify-content: center;
 }
@@ -1053,7 +1054,9 @@ nav .nav-link.active::after {
 .contact-info {
     width: 100%;
     max-width: 650px;
+    margin: 0 auto; /* FIX: card eka center karanna */
 }
+
 .contact-info h3 {
     font-size: 1.6rem;
     color: #ffffff;
@@ -1430,8 +1433,7 @@ footer {
         justify-content: center;
     }
 
-    .about-grid,
-    .contact-grid {
+    .about-grid {
         grid-template-columns: 1fr;
     }
 
@@ -1499,10 +1501,13 @@ footer {
         padding: 1.4rem;
     }
 
-.contact-form-card,
-.about-card {
-    padding: 1.6rem;
-    width: 80%;
-    margin: 0 auto;
-}
+    /* FIX: indent hariyata, width: 80% ain kala (about card podi wenna epa) */
+    .contact-form-card,
+    .about-card {
+        padding: 1.6rem;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
 }
